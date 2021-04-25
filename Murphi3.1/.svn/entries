@@ -1,0 +1,91 @@
+8
+
+dir
+139
+svn://proof.cs.utah.edu/murphi/Murphi3.1
+svn://proof.cs.utah.edu
+
+
+
+2008-10-09T19:57:15.623650Z
+128
+avo
+
+
+svn:special svn:externals svn:needs-lock
+
+
+
+
+
+
+
+
+
+
+
+f26f91df-4c49-0410-b835-8340b77052b9
+
+License
+file
+
+
+
+
+2008-10-10T05:24:04.000000Z
+a6a7ece5f1ab71779499aea97fcbcae4
+2008-10-09T19:44:34.020592Z
+124
+avo
+
+include
+dir
+
+doc
+dir
+
+src
+dir
+
+bin
+dir
+
+ex
+dir
+
+Bugfixes
+file
+
+
+
+
+2008-10-10T05:24:04.000000Z
+17a8886be079e4f76e02b6af686831b7
+2008-10-09T19:44:34.020592Z
+124
+avo
+
+Makefile
+file
+
+
+
+
+2008-10-10T05:24:04.000000Z
+7652c6994cf586519c6f743b39ed0d1e
+2008-10-09T19:44:34.020592Z
+124
+avo
+
+Readme
+file
+
+
+
+
+2008-10-10T05:24:04.000000Z
+a7d1a46ff0ae4d4a08aca98e6fec3c9d
+2008-10-09T19:44:34.020592Z
+124
+avo
+

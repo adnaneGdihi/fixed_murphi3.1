@@ -1,0 +1,9 @@
+version: '3.5'
+
+services:
+    ubuntu:
+        build: .
+        container_name: murphi_6385
+        volumes:
+            - .:/root:rw
+        
