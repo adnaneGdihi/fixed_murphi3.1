@@ -1,4 +1,4 @@
-FROM ubuntu:16.04
+FROM ubuntu:12.04
 
 WORKDIR /root
 
@@ -17,7 +17,7 @@ ADD . /root
 RUN \
     cd /root && \
     cd /root/Murphi3.1/src && \
-    make
+    make && make install
 
 
 ENV HOME /root

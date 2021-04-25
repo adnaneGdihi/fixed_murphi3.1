@@ -64,13 +64,14 @@
 #include <stdio.h>
 #include <string.h>
 #include <stdarg.h>
-#include <stream.h>
+#include <iostream>
 //#include <values.h> /* for BITSPERBYTE and BITS() */
 // Uli: values.h is obsolete, replaced by limits.h
 #include <limits.h>
-#include <new.h>    /* for new_handler stuff. */
+#include <new>    /* for new_handler stuff. */
 #include <signal.h> /* To trap division by zero. */
 #include <assert.h>
+using namespace std;
 
 /****************************************   // added by Uli
   C Objects

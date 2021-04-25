@@ -35,11 +35,11 @@
 #
 
 # path for including mu_verifier.C etc.
-INCLUDEPATH = ../include
+INCLUDEPATH = ../Murphi3.1/include
 
 # choice of compiler (with REQUIRED options)
 #CXX = g++ #                                 # for beet, elaines, dawns, cabbage
-CXX = g++ -DCATCH_DIV #                   # for elaines
+CXX = g++ -std=c++98 -DCATCH_DIV #                   # for elaines
 #CXX = OCC +d #                              # for beet
 #CXX = DCC #                                 # for beet
 

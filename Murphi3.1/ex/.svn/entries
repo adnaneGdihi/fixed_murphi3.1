@@ -1,64 +1,0 @@
-8
-
-dir
-139
-svn://proof.cs.utah.edu/murphi/Murphi3.1/ex
-svn://proof.cs.utah.edu
-
-
-
-2008-10-09T19:50:35.294106Z
-127
-avo
-
-
-svn:special svn:externals svn:needs-lock
-
-
-
-
-
-
-
-
-
-
-
-f26f91df-4c49-0410-b835-8340b77052b9
-
-dash
-dir
-
-secur
-dir
-
-others
-dir
-
-sym
-dir
-
-mux
-dir
-
-multiset+sym
-dir
-
-toy
-dir
-
-Readme
-file
-
-
-
-
-2008-10-10T05:24:04.000000Z
-c52f9f22e9af5b595fdb80cba4e537a1
-2008-10-09T19:44:34.020592Z
-124
-avo
-
-sci
-dir
-

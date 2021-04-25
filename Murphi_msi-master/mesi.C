@@ -1,8 +1,8 @@
 /******************************
-  Program "mesi.m" compiled by "Murphi Release 3.1"
+  Program "./mesi.m" compiled by "Murphi Release 3.1"
 
   Murphi Last Modefied Date: "Jan 29 1999"
-  Murphi Last Compiled date: "Mar 12 2014"
+  Murphi Last Compiled date: "Apr 25 2021"
  ******************************/
 
 /********************
@@ -10,7 +10,7 @@
  ********************/
 #define MURPHI_VERSION "Murphi Release 3.1"
 #define MURPHI_DATE "Jan 29 1999"
-#define PROTOCOL_NAME "mesi"
+#define PROTOCOL_NAME "./mesi"
 #define BITS_IN_WORLD 1632
 #define ALIGN
 
@@ -2060,7 +2060,7 @@ break;
 case mu_GetM:
 mu_Send ( mu_Data, mu_msg.mu_src, (int)mu_HomeType, mu_VC2, mu_HomeNode.mu_val, (int)mu_cnt );
 mu_HomeNode.mu_owner = mu_msg.mu_src;
-mu_HomeNode.mu_state = mu_H_SM_Wait;
+mu_HomeNode.mu_state = mu_H_IM_Wait;
 break;
 case mu_PutS:
 mu_Send ( mu_PutAck, mu_msg.mu_src, (int)mu_HomeType, mu_VC1, mu_1_Value_undefined_var, (int)mu_cnt );
